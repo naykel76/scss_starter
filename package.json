@@ -1,0 +1,26 @@
+{
+    "name": "nk_scss_starter",
+    "description": "NAYKEL SCSS Starter",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/naykel76/nk_jtb.git"
+    },
+    "private": false,
+    "type": "module",
+    "scripts": {
+        "play": "sass --watch --no-source-map ./src/play.scss:dist/css/play.css",
+        "dev": "vite --open",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "@fullhuman/postcss-purgecss": "^5.0.0",
+        "alpinejs": "^3.12",
+        "autoprefixer": "^10.4.14",
+        "postcss": "^8.4.24",
+        "postcss-cli": "^10.1.0",
+        "sass": "^1.60.0",
+        "vite": "^4.2.1"
+    }
+}
